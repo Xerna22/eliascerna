@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Movie Dataset Analysis</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <style>
+      /* Estilos para los enlaces */
+      a {
+        color: #605095;
+        font-weight: bold; /* Negrita */
+        text-decoration: none; /* Elimina el subrayado por defecto */
+      }
+  
+      a:hover {
+        text-decoration: none; /* Añade un subrayado al pasar el ratón */
+      }
+    </style>
+
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1>
+          Movie Dataset Analysis: Budget, Gross Earnings, and Correlation
+          Insights
+        </h1>
+      </header>
+      
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html#intro">About me</a></li>
+          <li><a href="index.html#first">Technical Skills</a></li>
+          <li><a href="index.html#second">Featured Projects</a></li>
+          <li><a href="index.html#certificates">Certificates</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Content -->
+        <section id="content" class="main">
+          <span class="image main"
+            ><img src="projects-assets\cine.jpg" alt=""
+          /></span>
+          <div>
+            <span
+              style="
+                background-color: #84b3c2;
+                border-radius: 5px;
+                padding: 5px;
+                margin-right: 5px;
+              "
+              >Python</span
+            >
+            <span
+              style="
+                background-color: #a2d2e2;
+                border-radius: 5px;
+                padding: 5px;
+                margin-right: 5px;
+              "
+              >Pandas</span
+            >
+            <span
+              style="
+                background-color: #bee6f4;
+                border-radius: 5px;
+                padding: 5px;
+                margin-right: 5px;
+              "
+              >Seaborn</span
+            >
+            <span
+              style="
+                background-color: #d4eef8;
+                border-radius: 5px;
+                padding: 5px;
+                margin-right: 5px;
+              "
+              >Matplotlib</span
+            >
+            <span
+              style="
+                background-color: #e0e0e0;
+                border-radius: 5px;
+                padding: 5px;
+                margin-right: 5px;
+              "
+              >NumPy</span
+            >
+          </div>
+          <h1>
+            Movie Dataset Analysis: Budget, Gross Earnings, and Correlation
+            Insights
+          </h1>
+
+          <p>
+            This project focuses on analyzing a dataset of movies using Python
+            libraries such as Pandas, Seaborn, and Matplotlib. The goal is to
+            explore relationships between various movie attributes, such as
+            budget, gross earnings, and release dates, while identifying key
+            correlations through visualizations and statistical analysis. The
+            dataset used for this analysis can be found at
+            <a href="https://www.kaggle.com/datasets/danielgrijalvas/movies"
+              >Kaggle</a
+            >.
+          </p>
+
+          <p></p>
+            For more detailed information and to access all the project files,
+            visit the following repository: <br>
+            <a class="icon brands fa-github "
+              href="https://github.com/EliasBenitez24/data-analytics-portfolio/tree/main/Movie%20Analysis%20Budget%2C%20Gross%20Earnings%20and%20Correlation"
+              target="_blank"
+            >
+            Movie Analysis Budget, Gross Earnings and Correlation.</a
+            >
+          </p>
+          <h2>Key Steps and Approach</h2>
+
+          <h3>Data Loading and Cleaning</h3>
+          <ul>
+            <li>The movie dataset is loaded from a CSV file using Pandas.</li>
+            <li>
+              A quick inspection of the data reveals missing values, which are
+              handled by replacing NaN values in columns like budget, gross, and
+              rating with 0.
+            </li>
+            <li>
+              Data types of certain columns are adjusted for analysis (e.g.,
+              converting budget and gross to integers).
+            </li>
+          </ul>
+
+          <h3>Date Transformation</h3>
+          <ul>
+            <li>
+              A custom function is used to transform the release date from a
+              string format (e.g., "February 7, 2020") into a standard date
+              format.
+            </li>
+            <li>
+              A new column, <code>yearcorrect</code>, is created to extract the
+              year from the release date.
+            </li>
+          </ul>
+
+          <h3>Exploratory Data Analysis</h3>
+          <ul>
+            <li>
+              The dataset is sorted by gross earnings, and duplicates are
+              removed to ensure data integrity.
+            </li>
+            <li>
+              Scatter plots and regression plots are created to visualize the
+              relationship between budget and gross earnings.
+            </li>
+            <li>
+              A correlation matrix is generated using Pearson’s correlation to
+              identify relationships between numeric variables such as budget,
+              gross earnings, and rating.
+            </li>
+          </ul>
+          <img src="projects-assets\tabla.png" style="width: 100%" />
+          <h3>Correlation Analysis</h3>
+          <ul>
+            <li>
+              A correlation heatmap is produced to visualize the strength of the
+              relationships between various numeric movie features.
+            </li>
+            <li>
+              Non-numeric columns (e.g., categorical data) are converted into
+              numerical codes to allow for more comprehensive correlation
+              analysis.
+            </li>
+          </ul>
+          <span>
+            <img src="projects-assets\budget vs gross.png" style="width: 40%" />
+            <img
+              src="projects-assets\correlation matrix.png"
+              style="width: 40%"
+            />
+            <img src="projects-assets\download.png" style="width: 40%" />
+          </span>
+
+          <h3>Visualizations</h3>
+          <ul>
+            <li>
+              Several plots, including scatter plots, regression plots, and
+              heatmaps, are used to highlight trends and relationships within
+              the data.
+            </li>
+            <li>
+              The results provide insights into how movie budgets correlate with
+              gross earnings, and the overall influence of other movie features.
+            </li>
+          </ul>
+
+          <h2>Tools and Libraries</h2>
+          <ul>
+            <li><strong>Pandas</strong> for data manipulation and cleaning.</li>
+            <li><strong>Seaborn</strong> for advanced data visualization.</li>
+            <li>
+              <strong>Matplotlib</strong> for generating plots and charts.
+            </li>
+            <li>
+              <strong>NumPy</strong> for handling missing values and numerical
+              computations.
+            </li>
+          </ul>
+
+          <h2>Conclusion</h2>
+          <p>
+            This project provides a detailed analysis of movie data, uncovering
+            significant correlations between budget and gross earnings while
+            demonstrating the power of data cleaning, visualization, and
+            transformation techniques in Python. The insights derived from this
+            analysis can assist in understanding key factors that influence
+            movie performance in the industry.
+          </p>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <h2>Contact</h2>
+          <dl class="alt">
+            <dt>Address</dt>
+            <dd>Honduras, Comayagüela M.D.C</dd>
+            <dt>Phone</dt>
+            <dd>(+504) 9516 0936</dd>
+            <dt>Email</dt>
+            <dd>elias.cerna24@gmail.com</dd>
+          </dl>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://github.com/EliasBenitez24"
+                class="icon brands fa-github alt"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/elias-cerna-6168602ba/"
+                class="icon brands fa-linkedin alt"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>        
+        </section>
+        <p class="copyright">&copy; Untitled. Design: HTML5 UP.</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Data Analysis Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <span class="logo"><img src="images/logo2.svg" alt="" /></span>
+        <h1>Data Analysis Portfolio</h1>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a href="#intro" class="active">About me</a></li>
+          <li><a href="#first">Technical Skills</a></li>
+          <li><a href="#second">Featured Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Introduction -->
+        <section id="intro" class="main">
+          <div class="spotlight">
+            <div class="content">
+              <header class="major">
+                <h2>About me</h2>
+              </header>
+              <p>
+                I’m Elias Cerna, a data analysis enthusiast with a background in
+                Systems Engineering. I’m currently pursuing a Master’s in Visual
+                Analytics & Big Data, which allows me to combine my technical
+                skills with data analysis to extract valuable insights. I
+                specialize in using tools and technologies to transform complex
+                data into clear visual solutions that drive strategic
+                decision-making.
+              </p>
+            </div>
+            <span class="image"><img src="images\foto.jpg" alt="" /></span>
+          </div>
+        </section>
+
+        <!-- First Section -->
+        <section id="first" class="main special">
+          <header class="major">
+            <h2>Technical Skills</h2>
+          </header>
+          <ul class="features">
+            <li>
+              <span>
+                <img src="images\python.svg" alt="" class="major style3" />
+              </span>
+              <h3>Python</h3>
+              <p>
+                Solid knowledge in using Python for data manipulation, including
+                libraries like Pandas and Matplotlib for analysis and
+                visualization.
+              </p>
+            </li>
+            <li>
+              <span>
+                <img src="images\tableau.svg" class="major style3" />
+              </span>
+              <h3>Tableau</h3>
+              <p>
+                Ability to create interactive dashboards and visualizations that
+                help identify key trends and patterns, facilitating data-driven
+                decision-making.
+              </p>
+            </li>
+            <li>
+              <span>
+                <img src="images\excel.svg" class="major style3" />
+              </span>
+              <h3>Excel</h3>
+              <p>
+                Skilled in using advanced functions like pivot tables, formulas,
+                and charts for data analysis and generating clear, organized
+                reports.
+              </p>
+            </li>
+            <li>
+              <span>
+                <img src="images\sql.svg" class="major style3" />
+              </span>
+              <h3>SQL</h3>
+              <p>
+                Experience in writing SQL queries to extract and analyze data,
+                as well as managing databases.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Second Section -->
+        <section id="second" class="main special">
+          <header class="major">
+            <h2>Featured Projects</h2>
+          </header>
+          <div class="card-container">
+            <article class="card">
+              <a href="project1.html" style="border: none;">
+              <img src="images\Cyclistic logo cuadrado.png" alt="Proyecto 1"/>
+              <h3>Cyclistic</h3>
+              <p>
+                An analysis of Cyclistic's bike-sharing usage patterns and demand trends across New York City.
+              </p>
+            </a>
+            </article>
+            <article class="card">
+              <a href="project2.html" style="border: none;">
+              <img src="projects-assets\COVID.jpeg" alt="Proyecto 1"/>
+              <h3>COVID19 Global Impact Overview</h3>
+              <p>
+                Global analysis of COVID-19's impact on mortality, infections, and future projections.
+              </p>
+            </a>
+            </article>
+            <article class="card">
+              <a href="project3.html" style="border: none;">
+              <img src="projects-assets\movies.jpg" alt="Proyecto 1"/>
+              <h3>Movie data analysis</h3>
+              <p>
+                Analysis of movie data to explore budget, gross earnings, and key correlations.
+              </p>
+            </a>
+            </article>
+
+          </div>
+
+          <style>
+            .card-container {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              gap: 20px;
+              padding: 20px;
+            }
+
+            .card {
+              background-color: #f4f4f4;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              width: calc(
+                25% - 20px
+              ); /* Hace que las cards ocupen 25% del contenedor */
+              padding: 15px;
+              text-align: center;
+              transition: transform 0.3s ease;
+            }
+
+            .card:hover {
+              transform: translateY(-10px);
+            }
+
+            .card img {
+              width: 100%;
+              height: auto;
+              border-radius: 8px 8px 0 0;
+            }
+
+            .card h3 {
+              margin: 15px 0 10px;
+              font-size: 1.25em;
+              color: #333;
+            }
+
+            .card p {
+              font-size: 0.9em;
+              color: #666;
+            }
+
+            @media (max-width: 768px) {
+              .card {
+                width: calc(50% - 20px);
+              }
+            }
+
+            @media (max-width: 480px) {
+              .card {
+                width: 100%;
+              }
+            }
+          </style>
+        </section>
+
+        <!-- Get Started -->
+        <section id="certificates" class="main special">
+          <header class="major">
+            <h2>Certificates</h2>
+            <p>Here are some of the certifications I have earned. More to come in the future!</p>
+          </header>
+          
+          <div class="certificate-container">
+            <div class="certificate-item">
+              <img src="images/BI-certificate.png" alt="Google Business Intelligence Certificate">
+              <h3>Google Business Intelligence Professional Certificate</h3>
+              <p>Issued by Google via Coursera.</p>
+            </div>
+            
+            <div class="certificate-item">
+              <img src="projects-assets\python-essentials-1.1.png" alt="Google Business Intelligence Certificate">
+              <h3>Python Essentials 1</h3>
+              <p>Issued by Cisco.</p>
+            </div>
+
+            
+          </div>
+        
+          <style>
+            .certificate-container {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              gap: 20px;
+              padding: 20px;
+            }
+        
+            .certificate-item {
+              background-color: #f4f4f4;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              width: calc(30% - 20px);
+              text-align: center;
+              padding: 15px;
+              transition: transform 0.3s ease;
+            }
+        
+            .certificate-item:hover {
+              transform: translateY(-10px);
+            }
+        
+            .certificate-item img {
+              width: 100%;
+              height: auto;
+              border-radius: 8px 8px 0 0;
+            }
+        
+            .certificate-item h3 {
+              margin: 15px 0 10px;
+              font-size: 1.2em;
+              color: #333;
+            }
+        
+            .certificate-item p {
+              font-size: 0.9em;
+              color: #666;
+            }
+        
+            .certificate-item.future {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #e0e0e0;
+              height: 200px;
+            }
+        
+            .certificate-item.future .placeholder {
+              color: #999;
+              font-size: 1.2em;
+              font-style: italic;
+            }
+        
+            @media (max-width: 768px) {
+              .certificate-item {
+                width: calc(45% - 20px);
+              }
+            }
+        
+            @media (max-width: 480px) {
+              .certificate-item {
+                width: 100%;
+              }
+            }
+          </style>
+        </section>
+        
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <h2>Contact</h2>
+          <dl class="alt">
+            <dt>Address</dt>
+            <dd>Honduras, Comayagüela M.D.C</dd>
+            <dt>Phone</dt>
+            <dd>(+504) 9516 0936</dd>
+            <dt>Email</dt>
+            <dd>elias.cerna24@gmail.com</dd>
+          </dl>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://github.com/EliasBenitez24"
+                class="icon brands fa-github alt"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/elias-cerna-6168602ba/"
+                class="icon brands fa-linkedin alt"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>        
+        </section>
+        <p class="copyright">&copy; Untitled. Design: HTML5 UP.</p>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
